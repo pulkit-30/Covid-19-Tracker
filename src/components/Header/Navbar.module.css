@@ -1,0 +1,51 @@
+.background {
+  width: 100%;
+  background-image: url("b1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35vh;
+  background-position: center;
+  /* background-attachment: fixed; */
+  color: white;
+  position: relative;
+  /* z-index: ; */
+}
+.background::after {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.856),
+    rgba(179, 179, 179, 0),
+    rgba(0, 0, 0, 0.856)
+  );
+  /* color: ; */
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.nav {
+  height: fit-content;
+  justify-content: space-between !important;
+  width: 95vw;
+  padding: 0px 0;
+  position: absolute;
+  bottom: 0px;
+  font-size: 15px;
+  z-index: 10;
+  color: black;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+  z-index: 1;
+}
+.logo img {
+  height: 50px;
+  width: 50px !important;
+}

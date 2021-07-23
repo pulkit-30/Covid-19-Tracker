@@ -1,0 +1,8 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 20px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.row {
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 2px 0px;
+  width: 100%;
+  height: 30px;
+}
+.row:nth-child(1) {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 0;
+  padding: 10px 0px;
+  background-color: rgb(2, 34, 90) !important;
+  color: white !important;
+  font-weight: bolder;
+}
+.row:nth-child(1) div {
+  width: 60px;
+}
+.row:nth-child(even) {
+  background-color: rgba(175, 180, 255, 0.301);
+}
+.row:nth-child(odd) {
+  background-color: white;
+  color: black;
+}
+td {
+  text-align: center;
+  width: 20vw;
+}
